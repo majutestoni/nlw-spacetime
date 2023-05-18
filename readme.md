@@ -30,3 +30,4 @@
 // npm i tailwindcss -D
 // npx tailwindcss init
 // npx expo install @expo-google-fonts/roboto @expo-google-fonts/bai-jamjuree expo-font
+// npx expo install expo-auth-session expo-crypto
