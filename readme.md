@@ -1,6 +1,9 @@
-*** Comandos ***
+# Comandos 
 
-***  Back end ***
+### Back end 
+```bash
+  npm run deploy
+```
 // npm init -y
 // npm i typescript -D
 // npm i @types/node -D
@@ -19,13 +22,13 @@
 // npm i @fastify/jwt
 
 
-***  front end ***
+###  front end 
 // npx create-next-app@latest web --use-npm
 // npm i axios
 // npm i jwt-decode
 // npm install -D @tailwindcss/forms
 
-*** mobile ***
+### mobile 
 // npx create-expo-app mobile
 // npm run start
 // npm i tailwindcss -D
