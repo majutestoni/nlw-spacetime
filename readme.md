@@ -23,6 +23,7 @@
 // npx create-next-app@latest web --use-npm
 // npm i axios
 // npm i jwt-decode
+// npm install -D @tailwindcss/forms
 
 *** mobile ***
 // npx create-expo-app mobile

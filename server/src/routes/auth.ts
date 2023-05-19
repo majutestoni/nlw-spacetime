@@ -14,14 +14,14 @@ export async function authRoutes(app: FastifyInstance) {
     console.log('oi')
     const { code } = bodySchema.parse(request.body);
     const accessToken = await axios.post("https://github.com/login/oauth/access_token", null, {
-      params: {
-        client_id: process.env.GITHUB_CLIENT_ID,
+        params: {
+          client_id: process.env.GITHUB_CLIENT_ID,
         client_secret: process.env.GITHUB_CLIENT_SECRETE,
-        code,
-      },
-      headers: {
+          code,
+        },
+        headers: {
         Accept: "application/json",
-      },
+        },
     });
 
     console.log(accessToken)
@@ -69,7 +69,7 @@ export async function authRoutes(app: FastifyInstance) {
     }, {
         sub: user.id,
         expiresIn: '30 days'
-    })
+  })
 
     console.log(token)
     return { token };
