@@ -13,7 +13,7 @@ const app = fastify();
 app.register(memoriesRoute);
 app.register(require("@fastify/static"), {
   root: resolve(__dirname, "../uploads"),
-  prefix: "uploads",
+  prefix: "/uploads",
 });
 app.register(multipart);
 app.register(authRoutes);

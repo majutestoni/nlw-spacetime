@@ -25,7 +25,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             {isAuthenticate ? <Profile /> : <SingIn />}
             <Hero />
           </div>
-          <div className="flex flex-col p-16 bg-[url(../assets/bg-starts.svg)] bg-cover">
+          <div className="flex flex-col bg-[url(../assets/bg-starts.svg)] bg-cover overflow-y-scroll max-h-screen">
                 {children}
           </div>
         </main>
