@@ -1,37 +1,87 @@
 # Comandos 
 
 ### Back end 
+
 ```bash
-  npm run deploy
+npm init -y
 ```
-// npm init -y
-// npm i typescript -D
-// npm i @types/node -D
-// npx tsc --init
-// npm i tsx -D
-// npm i fastify
-// npm i eslint -D
-// npm i prisma -D
-// npx prisma init --datasource-provider SQLite
-// npx prisma migrate dev
-// npx prisma studio
-// npm i dotenv -D
-// npm i @fastify/cors
-// npm i zod
-// npm i axios
-// npm i @fastify/jwt
+```bash
+npm i typescript -D
+```
+```bash
+npm i @types/node -D
+```
+```bash
+npx tsc --init
+```
+```bash
+npm i tsx -D
+```
+```bash
+ npm i fastify
+```
+```bash
+ npm i eslint -D
+```
+```bash
+ npm i prisma -D
+```
+```bash
+npx prisma init --datasource-provider SQLite
+```
+```bash
+npx prisma migrate dev
+```
+```bash
+npx prisma studio
+```
+```bash
+npm i dotenv -D
+```
+```bash
+npm i @fastify/cors
+```
+```bash
+npm i zod
+```
+```bash
+npm i axios
+```
+```bash
+npm i @fastify/jwt
+```
 
 
 ###  front end 
-// npx create-next-app@latest web --use-npm
-// npm i axios
-// npm i jwt-decode
-// npm install -D @tailwindcss/forms
+```bash
+npx create-next-app@latest web --use-npm
+```
+```bash
+npm i axios
+```
+```bash
+npm i jwt-decode
+```
+```bash
+npm install -D @tailwindcss/forms
+```
 
 ### mobile 
-// npx create-expo-app mobile
-// npm run start
-// npm i tailwindcss -D
-// npx tailwindcss init
-// npx expo install @expo-google-fonts/roboto @expo-google-fonts/bai-jamjuree expo-font
-// npx expo install expo-auth-session expo-crypto
+```bash
+npx create-expo-app mobile
+```
+```bash
+npm run start
+```
+```bash
+npm i tailwindcss -D
+```
+```bash
+npx tailwindcss init
+```
+```bash
+npx expo install @expo-google-fonts/roboto @expo-google-fonts/bai-jamjuree expo-font
+```
+```bash
+ npx expo install expo-auth-session expo-crypto
+```
